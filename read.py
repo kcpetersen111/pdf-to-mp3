@@ -18,7 +18,7 @@ def main():
 
     tts = gTTS(text)
     # print(text)
-    tts.save("test.mp3")
+    tts.save(newFile)
 
 
 if __name__ == '__main__':
