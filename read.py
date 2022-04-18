@@ -9,7 +9,7 @@ def main():
     try:
         f = open(filename, "r")
     except FileNotFoundError:
-        print("File not found")
+        print("File '%s' not found" %filename)
         sys.exit(1)
     text = f.read()
     # print(text)
