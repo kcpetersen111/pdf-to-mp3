@@ -8,7 +8,7 @@
 
     Or you can optionally run 
 
-    - ./readPDF \<input PDF name\> \<Output MP3 name\>
+    - ./readPDF <input PDF name> <Output MP3 name>
 
     If the 2 arduments aren't specified, then it will prompt you for the names of both files requiring additional user input
     
